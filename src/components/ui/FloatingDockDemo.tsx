@@ -11,8 +11,6 @@ import {
 import Image from "next/image";
 import logo from "../Assets/logo.png"
 
-// Import the local image
-import myPhoto from "@/public/images/my-photo.png"; // Update this path according to your structure
 
 export function FloatingDockDemo() {
   const links = [
@@ -38,7 +36,7 @@ export function FloatingDockDemo() {
       href: "#",
     },
     {
-      title: "My Photo", // Updated title
+      title: "Project X", // Updated title
       icon: (
         <Image
           src={logo} // Use the imported image file
@@ -61,19 +59,19 @@ export function FloatingDockDemo() {
       icon: (
         <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://x.com/MohitKa18758062?t=HQFswTopkyXP15AAbR9BTQ&s=09",
     },
     {
       title: "GitHub",
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://github.com/mohitkkk",
     },
   ];
 
   return (
-    <div className="flex items-center justify-center h-[35rem] w-full">
+    <div className="flex items-center justify-center ">
       <FloatingDock
         // mobileClassName="translate-y-20" // only for demo, remove for production
         items={links}

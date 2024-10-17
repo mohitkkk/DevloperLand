@@ -2,7 +2,8 @@
 import { cn } from "@/lib/utils";
 import { useMotionValue, motion, useMotionTemplate } from "framer-motion";
 import React from "react";
-import { SparklesPreview } from "../ui/sparlklespreview"
+// import { SparklesPreview } from "../ui/sparlklespreview"
+import { Services } from "./Services";
 
 export const HeroHighlight = ({
   children,
@@ -57,7 +58,7 @@ export const HeroHighlight = ({
       />
 
       <div className={cn("relative z-20", className)}>{children}</div>
-      <div className=""> <SparklesPreview /> </div>
+      <div className="z-50 "> <Services /> </div>
     </div>
     
   );
