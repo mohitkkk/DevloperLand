@@ -5,15 +5,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "react-scripts start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@tabler/icons-react": "^3.19.0",
     "@tsparticles/engine": "^3.5.0",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.5.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
     "framer-motion": "^11.11.9",
     "lucide-react": "^0.453.0",
     "mini-svg-data-uri": "^1.4.4",
