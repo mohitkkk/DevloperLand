@@ -1,0 +1,18 @@
+/* Preloader specific styles */
+#preloader-container {
+    background-color: #000;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  #preloader-svg {
+    width: 50%;
+    height: 50%;
+    visibility: hidden;
+  }
+  
