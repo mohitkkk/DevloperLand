@@ -4,12 +4,11 @@ import { PinContainer } from "../ui/3d-pin";
 
 export function AnimatedPinDemo() {
   return (
-    <div className="h-[40rem] w-full flex items-center justify-center ">
-        {/* first */}
+    <div className="h-full w-full flex flex-col md:flex-row items-center justify-center gap-16">
+
       <PinContainer
         title="/React_Devlopment"
-        href="#"
-      >
+        href="#">
         <div className="flex basis-full flex-col p-2 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
           <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
           React Development
@@ -22,7 +21,6 @@ export function AnimatedPinDemo() {
           <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
         </div>
       </PinContainer>
-
       {/* Second container */}
       <PinContainer
         title="/WordPress Development"
@@ -59,6 +57,7 @@ export function AnimatedPinDemo() {
           <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
         </div>
       </PinContainer>
+
     </div>
   );
 }
