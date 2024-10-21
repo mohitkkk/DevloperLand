@@ -31,6 +31,7 @@ export const HeroHighlight = ({
     setMouseX(clientX - left);
     setMouseY(clientY - top);
   }
+
   return (
     <div
       className={cn(

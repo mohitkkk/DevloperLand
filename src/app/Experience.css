@@ -1,0 +1,32 @@
+/* Experience.css */
+.three-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+    transition: opacity 1s;
+    opacity: 0;
+  }
+  
+  .three-container.is-ready {
+    opacity: 1;
+  }
+  
+  #content {
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    padding: 3vw;
+    padding-top: 9vh;
+  }
+  
+  span {
+    --l: 80%;
+    color: hsl(var(--h), var(--s), var(--l));
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
