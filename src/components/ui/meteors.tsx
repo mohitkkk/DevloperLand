@@ -29,11 +29,13 @@ export const Meteors = ({
             // Set the starting top position to 0
             top: 0,
             // Randomize the left position between -400 and 400 pixels
-            left: Math.floor(Math.random() * (400 - -400) + -400) + "px",
+            left: Math.random() * 100 + "vw",
             // Randomize the animation delay between 0.2 and 0.8 seconds
             animationDelay: Math.random() * (0.8 - 0.2) + 0.2 + "s",
             // Randomize the animation duration between 2 and 10 seconds
             animationDuration: Math.floor(Math.random() * (10 - 2) + 2) + "s",
+            zIndex: Math.floor(Math.random() * 10),
+
           }}
         ></span>
       ))}
